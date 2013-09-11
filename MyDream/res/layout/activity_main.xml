@@ -28,7 +28,7 @@
     </LinearLayout>
 <ListView
         android:id="@android:id/list"
-       
+        android:visibility="invisible"
         android:layout_width="fill_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="6dip"
@@ -37,11 +37,12 @@
         android:layout_marginTop="10dip"
         android:background="@drawable/shape"
         android:choiceMode="singleChoice"
-        android:listSelector="@android:color/white"
+        android:listSelector="@drawable/selector"
         android:paddingBottom="30dip"
         android:paddingLeft="30dip"
         android:paddingRight="30dip"
         android:paddingTop="30dip"
+        
         android:textAlignment="center" >
     </ListView>
 

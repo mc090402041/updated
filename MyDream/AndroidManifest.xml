@@ -15,6 +15,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.example.mydream.MainActivity"
+            
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,6 +23,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+     <activity android:name="SecondActivity"
+      android:parentActivityName="com.example.mydream.SecondActivity"
+     android:label="Dream Interpretation">
+    
+</activity>
     </application>
 
 </manifest>

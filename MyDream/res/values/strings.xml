@@ -2,7 +2,9 @@
 <resources>
     <string name="app_name">My Dream was..</string>
     <string name="edit_message">What did you dream about?</string>
-    <string name="button_send">Interpret</string>
+    <string name="edit_message1">See interpretation now</string>
+    <string name="button_send">Search</string>
+     <string name="button_send1">Interpret</string>
     <string name="action_settings">Settings</string>
     <string name="hello">list</string>
     <string name="title_activity_main">MainActivity</string>
